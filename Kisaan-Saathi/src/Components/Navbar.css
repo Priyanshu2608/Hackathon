@@ -1,11 +1,33 @@
-h1{
-    color: blue;
+nav{
+    background-color:rgb(9, 174, 9);
+}
+.Head{
+    color: yellow;
+    font-size: 34px;
+    padding-left: 90px;
+    padding-top: 10px;
+
     
 }
 ul{
     display: flex;
-    gap: 30px;
+    gap: 200px;
+    padding-top: 8px;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: -25px;
+    cursor: pointer;
+
 }
 li{
     list-style: none;
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+img{
+    border-radius:200px;
+    height: 60px;
+    margin-top: -60px;
+    margin-left: 10px ;
 }
