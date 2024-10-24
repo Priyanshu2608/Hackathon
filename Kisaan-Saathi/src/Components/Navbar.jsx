@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <>
-      <h1>Kisaan Saathi</h1>
+      <h1 className='Head'>Kisaan Saathi</h1>
       <nav>
       <ul>
         <li>Home</li>
