@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import Navbar from './Components/Navbar'
 import Homepage from './Components/Homepage'
+import EduHub from './Components/EduHub';
+
 
 
 const App = () => {
@@ -14,6 +16,11 @@ const App = () => {
       path: "/",
       element:<><Navbar/><Homepage/></>
     },
+    {
+      path:"/learnhub",
+      element:<><Navbar/><EduHub/></>
+    },
+    
     
   ])
   return (

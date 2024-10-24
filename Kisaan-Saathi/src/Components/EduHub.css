@@ -1,0 +1,11 @@
+.Head{
+    width: 100%;
+    height: 500px;
+}
+.Header{
+    position: relative;
+    bottom: 300px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}

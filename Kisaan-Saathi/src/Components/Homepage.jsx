@@ -34,6 +34,9 @@ const Homepage = () => {
     <div className='stats'>
       <h2 className='statis'>100k+ Farmers Connected 2000+ Verified Sellers</h2>
     </div>
+    <footer>
+      <p className='foot'>&copy;Copyright Kisaan Saathi</p>
+    </footer>
     </div>
     </>
   )
