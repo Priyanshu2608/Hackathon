@@ -1,33 +1,41 @@
 nav{
-    background-color:rgb(9, 174, 9);
+    background-color: #E2E2E2;
 }
-.Head{
-    color: yellow;
-    font-size: 34px;
-    padding-left: 90px;
-    padding-top: 10px;
 
-    
-}
+
 ul{
     display: flex;
-    gap: 200px;
+    gap: 150px;
     padding-top: 8px;
     justify-content: center;
     padding-bottom: 20px;
     margin-top: -25px;
     cursor: pointer;
+    margin-left: 400px;
 
 }
 li{
     list-style: none;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 19px;
     color: rgb(0, 0, 0);
 }
-img{
-    border-radius:200px;
-    height: 60px;
-    margin-top: -60px;
+.navi{
+   padding-top: 20px;
+   padding-left: 10px;
+   background: #499A09;
+background: linear-gradient(to right, #499A09 45%, #000000 56%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    
+
     margin-left: 10px ;
+}
+button{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+link{
+    text-decoration: none;
 }

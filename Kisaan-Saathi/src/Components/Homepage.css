@@ -1,17 +1,85 @@
+.Home{
+    background-color: rgb(248, 241, 241);
+
+}
 .homepic{
-    height: 500px;
-    width: 1500px;
+    height: 613px;
+    width: 100%;
     border-radius: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    margin-top: -60px;
 
     
 }
 .homie{
-    margin-top: 65px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-content: center;
+}
+.Homie2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.aapka{
+    background-color: rgb(232, 226, 226);
     
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    font-style: italic ;
+}
+.farmer{
+    display: flex;
+    justify-content:center;
+    border-radius: 0px;
+    margin-left: 56vh;
+    height: 370px;
+    display: flex;
+    padding-top: 20px;
+}
+.farm2{
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+   font-size: 30px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 800;
+}
+.farmer2{
+    padding-top: 50px;
+    border-radius: 0;
+    height: 370px;
+    margin-left: 56vh;
+
+}
+.farm3{
+    margin-top:50px;
+   display: flex;
+   justify-content: center;
+   font-size: 30px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 800;
+}
+.farmer3{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.stats{
+    background-color: rgb(232, 226, 226);
+}
+.statis{
+    display: flex;
+    justify-content: center;
+    word-spacing: ;
 }
