@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar'
 import Homepage from './Components/Homepage'
 import EduHub from './Components/EduHub';
 import About from './Components/About';
+import Survey from './Components/Survey';
 
 
 
@@ -25,6 +26,10 @@ const App = () => {
     {
       path:"/about",
       element:<><Navbar/><About/></>
+    },
+    {
+      path:"/survey",
+      element:<><Navbar/><Survey/></>
     }
   ])
   return (
