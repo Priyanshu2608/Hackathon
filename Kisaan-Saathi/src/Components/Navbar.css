@@ -1,5 +1,6 @@
 nav{
     background-color: #E2E2E2;
+    color:black;
 }
 
 
@@ -37,5 +38,9 @@ button{
     border-style: solid;
 }
 link{
+    text-decoration: none;
+}
+a{
+    color: #000000;
     text-decoration: none;
 }

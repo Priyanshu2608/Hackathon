@@ -7,6 +7,7 @@ import {
 import Navbar from './Components/Navbar'
 import Homepage from './Components/Homepage'
 import EduHub from './Components/EduHub';
+import About from './Components/About';
 
 
 
@@ -20,8 +21,11 @@ const App = () => {
       path:"/learnhub",
       element:<><Navbar/><EduHub/></>
     },
-    
-    
+   
+    {
+      path:"/about",
+      element:<><Navbar/><About/></>
+    }
   ])
   return (
     <div>
