@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Navbar from './Components/Navbar'
+import Product from './Components/Product'
 import Homepage from './Components/Homepage'
 import EduHub from './Components/EduHub';
 import About from './Components/About';
@@ -17,6 +18,10 @@ const App = () => {
     {
       path: "/",
       element:<><Navbar/><Homepage/></>
+    },
+    {
+      path:"/products",
+      element:<><Navbar/><Product/></>
     },
     {
       path:"/learnhub",
