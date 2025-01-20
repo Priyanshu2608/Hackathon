@@ -12,7 +12,7 @@ const Navbar = () => {
       
       <ul>
        <Link to="/"><li>Home</li></Link>
-       <li><a href="http://localhost:3000/">Products</a></li>
+       <Link to="/products"><li>Products</li></Link>
         <Link to="/learnhub"><li>LearnHub</li></Link>
         <Link to="/survey"><li>Survey</li></Link>
         <Link to="/about"><li>About</li></Link>
